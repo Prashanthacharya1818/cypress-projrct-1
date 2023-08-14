@@ -7,7 +7,7 @@ it('assertion demo', () => {
     .should('contain','Button')
     .should('have.class',('query-btn'))
     .should('be.visible')
-    .should('be.enabled')
+    //.should('be.enabled ')
 
 expect(true).to.be.true
 

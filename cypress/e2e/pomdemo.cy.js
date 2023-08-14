@@ -12,7 +12,11 @@ it('POM Demo', function(){
     cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('admin123')
     
     cy.get('.oxd-button').click()
-
+    cy.get('.oxd-main-menu-search > .oxd-icon-button > .oxd-icon').click()
+    //cy.get(':nth-child(9) > .oxd-main-menu-item > .oxd-text')
+    //cy.get('.oxd-main-menu-search > .oxd-icon-button > .oxd-icon').click()
+    //cy.contains('directory').click()
+    //cy.contains('Assign Leave').click()
     //cy.get('.oxd-userdropdown-tab > .oxd-icon').click()
     //cy.get(':nth-child(1) > .oxd-userdropdown-link').click()
     //cy.get('.oxd-dialog-close-button').click()

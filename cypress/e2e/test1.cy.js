@@ -6,5 +6,7 @@ it('Google Search', () => {
     //cy.get('.eKjLze > .g > [lang="en"] > .tF2Cxc > .yuRUbf > a > .LC20lb').click()
     //cy.contains('Automation Step by step:NEVER STOP LEARNING').click()
     //cy.get('#xXe_ZKrDAZL04-EPkOi-0Ag__9 > .zItAnd > .O3S9Rb').click()
-    cy.contains('Images').click()
+   // cy.contains('Images').click()
+    // cy.contains('videos').click()
+    cy.get('[data-hveid="CAEQBA"]').click()
 })
